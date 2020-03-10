@@ -1,4 +1,4 @@
-# Build and Test Laravel with Gilab-CI By Deha Academy
+# Tích hợp Gilab-CI vào Laravel 
 
 ![alt](images/docker-gitlab.png)
 
@@ -98,7 +98,7 @@ cat ~/.ssh/id_rsa
 
 #### b. Tạo 1 docker image
 
-##### Bước 1: Tạo 1 Dockerfile
+##### &nbsp;&nbsp;&nbsp;&nbsp;Bước 1: Tạo 1 Dockerfile
 ```bash
 # Set the base image for subsequent instructions
 FROM php:7.1
@@ -123,9 +123,9 @@ RUN curl --silent --show-error https://getcomposer.org/installer | php -- --inst
 RUN composer global require "laravel/envoy=~1.0"
 ```
 
-##### Bước 2: Build Dockerfile
+##### &nbsp;&nbsp;&nbsp;&nbsp;Bước 2: Build Dockerfile
 
-##### Bước 3: Push image build từ Dockerfile
+##### &nbsp;&nbsp;&nbsp;&nbsp;Bước 3: Push image build từ Dockerfile
 
 ---
 ### 4. Tạo và cấu hình .gitlab-ci.yml file (nằm trong thư mục gốc của project)
