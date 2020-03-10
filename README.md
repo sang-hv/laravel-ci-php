@@ -191,7 +191,7 @@ deploying:
 
 #### Cài đặt tham khảo tại [đây](https://docs.gitlab.com/runner/install/).
 
-#### Đăng ký Gitlab-runner với Gitlab tham khải tại [đây](https://docs.gitlab.com/runner/register/).
+#### Đăng ký Gitlab-runner với Gitlab tham khảo tại [đây](https://docs.gitlab.com/runner/register/).
 
 ---
 ## Chạy Gitlab CI-CD
@@ -205,6 +205,16 @@ deploying:
 
 ---
 ### 2. Kết quả (ProjectGitlab > CI/CD > Pipelines)
+
+> Kết quả các pipeline
+![](images/pipelines.png)
+
+> Chi tiết 1 pipeline
+![](images/a-pipeline-result.png)
+
+> Kết quả 1 job của 1 pipeline
+![](images/job-result.png)
+
 
 
 
