@@ -137,9 +137,9 @@ RUN composer global require "laravel/envoy=~1.0"
 
 ### 4. Cấu hình .gitlab-ci.yml file 
 
->Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
+Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
 
->Test (test các convention và unittest)
+>Test (test các convention và unittest) Example
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
 
@@ -172,7 +172,7 @@ testing:
     - phpcs --standard=PSR2 app/Observers
 ```
 
->Test (test các convention và unittest) và deploy
+>Test (test các convention và unittest) và deploy Example
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
 
