@@ -142,7 +142,7 @@ Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
 
 Test (test các convention và unittest) Example
 ```bash
-image: sanghvdeha/laravel-ci-php7-alpine
+image: sanghvdeha/laravel-ci-php:7.2-alpine
 
 variables:
   MYSQL_ROOT_PASSWORD: root
