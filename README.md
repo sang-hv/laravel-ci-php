@@ -15,7 +15,7 @@
 ### [2. Cấu hình Laravel Envoy](#2-cấu-hình-laravel-envoy-hiện-tại-chỉ-hỗ-trợ-hệ-điều-macos-và-linux)
 ### [3. Sử dụng docker image](#3-tạo-ra-hoặc-sử-dụng-có-sẵn-1-docker-image)
 ### [4. Cấu hình .gitlab-ci.yml](#4-cấu-hình-gitlab-ciyml-file)
-### [5. Cài đặt Gitlab-runner](#5-cài-đặt-gitlab-runner)
+### [5. Cài đặt Gitlab-runner](#5-cài-đặt-gitlab-runner-1)
 
 ## [II. Chạy Gitlab CI/CD](#ii-chạy-gitlab-ci-cd)
 ### [1. Workflow](#1-flow)
