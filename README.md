@@ -98,7 +98,6 @@ cat ~/.ssh/id_rsa
 @endstory
 
 @task('install')
-    echo 'Cloning repository'
     cd {{ $app_dir }}
     git stash
     git pull
@@ -147,6 +146,42 @@ RUN composer global require "laravel/envoy=~1.0"
 
 >Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
 
+>Test (test các convention và unittest)
+```bash
+image: sanghvdeha/laravel-ci-php7-alpine
+
+variables:
+  MYSQL_ROOT_PASSWORD: root
+  MYSQL_USER: homestead
+  MYSQL_PASSWORD: secret
+  MYSQL_DATABASE: homestead
+  DB_HOST: mysql
+
+testing:
+  services:
+    - mysql:5.7
+  script:
+    - cd laravel
+    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+    - cp .env.example .env
+    - php artisan migrate
+    - php artisan key:generate
+    - php artisan cache:clear
+    - php artisan config:clear
+    - ./vendor/phpunit/phpunit/phpunit
+    - phpcs --standard=PSR2 app/Models
+    - phpcs --standard=PSR2 tests
+    - phpcs --standard=PSR2 app/Traits
+    - phpcs --standard=PSR2 app/Models
+    - phpcs --standard=PSR2 app/Services
+    - phpcs --standard=PSR2 app/Repositories
+    - phpcs --standard=PSR2 app/Http/Controllers
+    - phpcs --standard=PSR2 app/Observers
+```
+
+&nbsp;
+
+>Test (test các convention và unittest) và deploy
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
 
@@ -166,7 +201,6 @@ testing:
   services:
     - mysql:5.7
   script:
-    - echo "testing"
     - cd laravel
     - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
     - cp .env.example .env
