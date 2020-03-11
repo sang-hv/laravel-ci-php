@@ -1,4 +1,4 @@
-# Tích hợp Gilab-CI vào Laravel 
+# Tích hợp Gitlab CI/CD vào Laravel 
 
 ![alt](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/docker-gitlab.png)
 
@@ -230,7 +230,7 @@ deploying:
 ```
 
 ### 5. Cài đặt Gitlab-runner
-
+>Có thể cài đặt ở local hoặc server
 #### Cài đặt tham khảo tại [đây](https://docs.gitlab.com/runner/install/).
 
 #### Đăng ký Gitlab-runner với Gitlab tham khảo tại [đây](https://docs.gitlab.com/runner/register/).
