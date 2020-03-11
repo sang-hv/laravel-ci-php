@@ -72,9 +72,9 @@ cat ~/.ssh/id_rsa
 ```
 
 #### Thêm Private Key vào Project Gitlab
->**Setting > CI/CD > Secret Variables**
+**Setting > CI/CD > Secret Variables**
 
-![alt](images/variables-gitlab.png)
+>![alt](images/variables-gitlab.png)
 
 ### 2. Cấu hình Laravel Envoy (hiện tại chỉ hỗ trợ hệ điều MacOS và Linux)
 
@@ -140,7 +140,7 @@ RUN composer global require "laravel/envoy=~1.0"
 
 Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
 
->Test (test các convention và unittest) Example
+Test (test các convention và unittest) Example
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
 
@@ -173,7 +173,7 @@ testing:
     - phpcs --standard=PSR2 app/Observers
 ```
 
->Test (test các convention và unittest) và deploy Example
+Test (test các convention và unittest) và deploy Example
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
 
@@ -245,17 +245,17 @@ deploying:
 
 ### 2. Kết quả (ProjectGitlab > CI/CD > Pipelines)
 
-> Kết quả các pipeline
+Kết quả các pipeline
 
-![](images/pipelines.png)
+>![](images/pipelines.png)
 
-> Chi tiết 1 pipeline
+Chi tiết 1 pipeline
 
-![](images/a-pipeline-result.png)
+>![](images/a-pipeline-result.png)
 
-> Kết quả 1 job của 1 pipeline
+Kết quả 1 job của 1 pipeline
 
-![](images/job-result.png)
+>![](images/job-result.png)
 
 
 
