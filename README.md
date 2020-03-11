@@ -73,6 +73,7 @@ cat ~/.ssh/id_rsa
 
 #### Thêm Private Key vào Project Gitlab
 >**Setting > CI/CD > Secret Variables**
+
 ![alt](images/variables-gitlab.png)
 
 ### 2. Cấu hình Laravel Envoy (hiện tại chỉ hỗ trợ hệ điều MacOS và Linux)
@@ -245,12 +246,15 @@ deploying:
 ### 2. Kết quả (ProjectGitlab > CI/CD > Pipelines)
 
 > Kết quả các pipeline
+
 ![](images/pipelines.png)
 
 > Chi tiết 1 pipeline
+
 ![](images/a-pipeline-result.png)
 
 > Kết quả 1 job của 1 pipeline
+
 ![](images/job-result.png)
 
 
