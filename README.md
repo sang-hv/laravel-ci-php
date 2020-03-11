@@ -12,7 +12,7 @@
 ---
 # Mục lục
 
-## [Cấu hình Gitlab CI/CD](#cấu-hình-gitlab-cicd)
+## [I. Cấu hình Gitlab CI/CD](#i-cấu-hình-gitlab-cicd)
 ### [1. Cấu hình trên môi trường Staging, Production](#1-cấu-hình-trên-môi-trường-staging-production)
 ### [2. Cấu hình Laravel Envoy](#2-cấu-hình-laravel-envoy-hiện-tại-chỉ-hỗ-trợ-hệ-điều-macos-và-linux)
 ### [3. Sử dụng docker image](#3-tạo-ra-hoặc-sử-dụng-có-sẵn-1-docker-image)
@@ -21,12 +21,12 @@
 
 &nbsp;
 
-## [Chạy Gitlab CI/CD](#chạy-gitlab-ci-cd)
+## [II. Chạy Gitlab CI/CD](#ii-chạy-gitlab-ci-cd)
 ### [1. Workflow](#1-flow)
 ### [2. Kết quả](#2-kết-quả-projectgitlab--cicd--pipelines)
 
 ---
-## Cấu hình Gitlab CI/CD
+## I. Cấu hình Gitlab CI/CD
 ### 1. Cấu hình trên môi trường Staging, Production 
 
 #### Tạo user 
@@ -209,7 +209,7 @@ deploying:
 #### Đăng ký Gitlab-runner với Gitlab tham khảo tại [đây](https://docs.gitlab.com/runner/register/).
 
 ---
-## Chạy Gitlab CI-CD
+## II. Chạy Gitlab CI-CD
 
 ---
 ### 1. Flow
