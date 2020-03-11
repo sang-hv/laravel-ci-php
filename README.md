@@ -10,7 +10,7 @@
 | Alpine        | [7.2](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/php7.2)|
 
 ---
-# Mục lục
+## Mục lục
 
 ## [I. Cấu hình Gitlab CI/CD](#i-cấu-hình-gitlab-cicd)
 ### [1. Cấu hình trên môi trường Staging, Production](#1-cấu-hình-trên-môi-trường-staging-production)
