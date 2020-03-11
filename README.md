@@ -2,14 +2,15 @@
 
 ![alt](images/docker-gitlab.png)
 
----
+&nbsp;
+
 ## Based on [PHP Images](https://hub.docker.com/_/php).
 
 | Types         | Images (version)| 
 | ------------- |:-------------:  | 
 | Alpine        | [7.2](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/php7.2)|
 
----
+&nbsp;
 ## Mục lục
 
 ## [I. Cấu hình Gitlab CI/CD](#i-cấu-hình-gitlab-cicd)
@@ -20,12 +21,11 @@
 ### [5. Cài đặt Gitlab-runner](#5-cài-đặt-gitlab-runner)
 
 &nbsp;
-
 ## [II. Chạy Gitlab CI/CD](#ii-chạy-gitlab-ci-cd)
 ### [1. Workflow](#1-flow)
 ### [2. Kết quả](#2-kết-quả-projectgitlab--cicd--pipelines)
 
----
+&nbsp;
 ## I. Cấu hình Gitlab CI/CD
 ### 1. Cấu hình trên môi trường Staging, Production 
 
@@ -80,7 +80,7 @@ cat ~/.ssh/id_rsa
 
 ![alt](images/variables-gitlab.png)
 
----
+&nbsp;
 ### 2. Cấu hình Laravel Envoy (hiện tại chỉ hỗ trợ hệ điều MacOS và Linux)
 
 #### Tạo file Envoy.blade.php trong thư mục gốc của project
@@ -105,7 +105,8 @@ cat ~/.ssh/id_rsa
     php artisan db:seed
 @endtask
 ```
----
+
+&nbsp;
 ### 3. Tạo ra hoặc sử dụng có sẵn 1 docker image
 
 #### a. Sử dụng docker image có sẵn [sanghvdeha/laravel-ci-php7-alpine](https://hub.docker.com/repository/docker/sanghvdeha/laravel-ci-php7-alpine)
@@ -141,7 +142,7 @@ RUN composer global require "laravel/envoy=~1.0"
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Bước 3: Push image build từ Dockerfile
 
----
+&nbsp;
 ### 4. Cấu hình .gitlab-ci.yml file 
 
 >Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
@@ -237,24 +238,24 @@ deploying:
     - develop
 ```
 
----
+&nbsp;
 ### 5. Cài đặt Gitlab-runner
 
 #### Cài đặt tham khảo tại [đây](https://docs.gitlab.com/runner/install/).
 
 #### Đăng ký Gitlab-runner với Gitlab tham khảo tại [đây](https://docs.gitlab.com/runner/register/).
 
----
+&nbsp;
 ## II. Chạy Gitlab CI-CD
 
----
+&nbsp;
 ### 1. Flow
 * Mỗi khi code được thay đổi, Gitlab thông báo cho Gitlab-runner.
 * Gitlab-runner sẽ pull code từ Gitlab.
 * Gitlab-runner build code và thực thi các jobs được định nghĩa ở .gitlab-ci.yml
 * Gitlab-runner sẽ gửi thông báo lên Gitlab.
 
----
+&nbsp;
 ### 2. Kết quả (ProjectGitlab > CI/CD > Pipelines)
 
 > Kết quả các pipeline
