@@ -10,8 +10,21 @@
 | Alpine        | [7.2](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/php7.2)|
 
 ---
-## Cấu hình Gitlab CI/CD
+# Mục lục
+## [Cấu hình Gitlab CI/CD](#cấu-hình-gitlab-cicd)
+&nbsp;
+### [1. Cấu hình trên môi trường Staging, Production](#1-cấu-hình-trên-môi-trường-staging-production)
+### [2. Cấu hình Laravel Envoy](#2-cấu-hình-laravel-envoy-hiện-tại-chỉ-hỗ-trợ-hệ-điều-macos-và-linux)
+### [3. Sử dụng docker image](#3-tạo-ra-hoặc-sử-dụng-có-sẵn-1-docker-image)
+### [4. Cấu hình .gitlab-ci.yml]()
+### [5. Cài đặt Gitlab-runner](#5-cài-đặt-gitlab-runner)
+&nbsp;
+## [Chạy Gitlab CI/CD](#chạy-gitlab-ci-cd)
+### [1. Workflow](#1-flow)
+### [2. Kết quả](#2-kết-quả-projectgitlab--cicd--pipelines)
+
 ---
+## Cấu hình Gitlab CI/CD
 ### 1. Cấu hình trên môi trường Staging, Production 
 
 #### Tạo user 
