@@ -6,7 +6,7 @@
 
 | Types         | Images (version)| 
 | ------------- |:-------------:  | 
-| Alpine        | [7.2](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/php7.2)|
+| Alpine        | [7.2](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.2/alpine)|
 
 # Mục lục
 
@@ -103,7 +103,7 @@ cat ~/.ssh/id_rsa
 
 ### 3. Tạo ra hoặc sử dụng có sẵn 1 docker image
 
-#### a. Sử dụng docker image có sẵn [sanghvdeha/laravel-ci-php7-alpine](https://hub.docker.com/repository/docker/sanghvdeha/laravel-ci-php7-alpine)
+#### a. Sử dụng docker image có sẵn [sanghvdeha/laravel-ci-php:7.2-alpine](https://hub.docker.com/repository/docker/sanghvdeha/laravel-ci-php:7.2-alpine)
 
 #### b. Tạo 1 docker image
 
