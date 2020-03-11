@@ -143,7 +143,9 @@ RUN composer global require "laravel/envoy=~1.0"
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Bước 3: Push image build từ Dockerfile
 
 ---
-### 4. Tạo và cấu hình .gitlab-ci.yml file (nằm trong thư mục gốc của project)
+### 4. Cấu hình .gitlab-ci.yml file 
+
+>Tạo file .gitlab-ci.yml nằm trong thư mục gốc của project
 
 ```bash
 image: sanghvdeha/laravel-ci-php7-alpine
