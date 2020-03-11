@@ -16,7 +16,7 @@
 ### [1. Cấu hình trên môi trường Staging, Production](#1-cấu-hình-trên-môi-trường-staging-production)
 ### [2. Cấu hình Laravel Envoy](#2-cấu-hình-laravel-envoy-hiện-tại-chỉ-hỗ-trợ-hệ-điều-macos-và-linux)
 ### [3. Sử dụng docker image](#3-tạo-ra-hoặc-sử-dụng-có-sẵn-1-docker-image)
-### [4. Cấu hình .gitlab-ci.yml]()
+### [4. Cấu hình .gitlab-ci.yml](#4-cấu-hình-gitlab-ciyml-file)
 ### [5. Cài đặt Gitlab-runner](#5-cài-đặt-gitlab-runner)
 
 &nbsp;
