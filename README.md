@@ -1,6 +1,6 @@
 # Tích hợp Gilab-CI vào Laravel 
 
-![alt](images/docker-gitlab.png)
+![alt](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/docker-gitlab.png)
 
 # Based on [PHP Images](https://hub.docker.com/_/php).
 
@@ -74,7 +74,7 @@ cat ~/.ssh/id_rsa
 #### Thêm Private Key vào Project Gitlab
 **Setting > CI/CD > Secret Variables**
 
->![alt](images/variables-gitlab.png)
+>![alt](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/variables-gitlab.png)
 
 ### 2. Cấu hình Laravel Envoy (hiện tại chỉ hỗ trợ hệ điều MacOS và Linux)
 
@@ -247,15 +247,15 @@ deploying:
 
 Kết quả các pipeline
 
->![](images/pipelines.png)
+>![](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/pipelines.png)
 
 Chi tiết 1 pipeline
 
->![](images/a-pipeline-result.png)
+>![](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/a-pipeline-result.png)
 
 Kết quả 1 job của 1 pipeline
 
->![](images/job-result.png)
+>![](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/job-result.png)
 
 
 
