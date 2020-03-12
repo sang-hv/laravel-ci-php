@@ -7,8 +7,8 @@ Example: image: sanghvdeha/laravel-ci-php:7.2-alpine
 
 | Types         | Images (version)| 
 | ------------- |:-------------:  | 
-| Alpine        | [7.2 Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.2/alpine)|
-|               | [7.4 Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.4/alpine)|
+| Alpine        | [7.2-alpine Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.2/alpine)|
+|               | [7.4-alpine Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.4/alpine)|
 
 # Mục lục
 
