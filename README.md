@@ -3,10 +3,12 @@
 ![alt](https://github.com/sanghvdeha/laravel-ci-php7-alpine/raw/master/images/docker-gitlab.png)
 
 # Based on [PHP Images](https://hub.docker.com/_/php).
+Example: image: sanghvdeha/laravel-ci-php:7.2-alpine
 
 | Types         | Images (version)| 
 | ------------- |:-------------:  | 
 | Alpine        | [7.2 Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.2/alpine)|
+|               | [7.4 Dockerfile](https://github.com/sanghvdeha/laravel-ci-php7-alpine/tree/master/7.4/alpine)|
 
 # Mục lục
 
