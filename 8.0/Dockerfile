@@ -1,4 +1,4 @@
-FROM php:7.4-alpine
+FROM php:8.0.5-fpm-alpine
 
 # Install dev dependencies
 RUN apk update
@@ -73,8 +73,11 @@ RUN curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/
 # Install PHP_CodeSniffer
 RUN composer global require "squizlabs/php_codesniffer=*"
 
-# Install Laravel Envoy 
+# Install Laravel Envoy
 RUN composer global require laravel/envoy
+
+# Install PHPCS
+RUN composer global require "squizlabs/php_codesniffer=*"
 
 # Install Nodejs, NPM
 RUN apk add --update nodejs npm
